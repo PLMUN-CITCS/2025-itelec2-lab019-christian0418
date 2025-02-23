@@ -1,15 +1,15 @@
-def get_grade(score):
-    if score >= 90:
-        return 'A'
-    elif score >= 80:
-        return 'B'
-    elif score >= 70:
-        return 'C'
-    elif score >= 60:
-        return 'D'
-    else:
-        return 'F'
-
-score = float(input("Enter your score: "))
-grade = get_grade(score)
-print(f"Your Grade is: {grade}")
+user_input = input("Enter your numeric grade: ")
+grade = int(user_input)
+    
+if grade > 90:
+    letter_grade = "A"
+elif grade >= 80:
+    etter_grade = "B"
+elif grade >= 70:
+    letter_grade = "C"
+elif grade >= 60:
+    letter_grade = "D"
+else:
+    letter_grade = "F"
+    
+    print("Your grade is:", letter_grade) # Correct indentation

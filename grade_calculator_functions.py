@@ -11,7 +11,5 @@ def get_grade(score):
         return 'F'
 
 score = float(input("Enter your score: "))
-
 grade = get_grade(score)
-
 print(f"Your Grade is: {grade}")
